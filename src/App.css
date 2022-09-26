@@ -8,7 +8,7 @@
 .header {
   color: rgb(85, 124, 136);
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-size: 3rem;
   text-align: center;
 }
@@ -21,7 +21,7 @@
 
 .lane {
   background-color: rgb(62, 69, 75);
-  min-height: 70vh;
+  min-height: 75vh;
   width: 20rem;
   border-radius: 33px;
   border: 1px solid white;
@@ -29,7 +29,7 @@
 }
 
 .lane__title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   text-align: center;
   color: white;
@@ -44,9 +44,11 @@
 
 .task {
   background-color: rgb(161, 159, 159);
-  padding: 0.5rem 0.9rem;
+  padding: 1rem 0.9rem;
   border-radius: 20px;
   border: 1px solid white;
+  cursor: pointer;
+  margin-bottom: 1rem;
 }
 
 .task__title {
