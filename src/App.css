@@ -1,0 +1,54 @@
+.container {
+  background-color: rgb(51, 50, 50);
+  padding: 1rem;
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  color: rgb(85, 124, 136);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.lane {
+  background-color: rgb(62, 69, 75);
+  min-height: 70vh;
+  width: 20rem;
+  border-radius: 33px;
+  border: 1px solid white;
+  margin-bottom: 1rem;
+}
+
+.lane__title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid white;
+}
+
+.lane__body {
+  padding: 0.5rem;
+}
+
+.task {
+  background-color: rgb(161, 159, 159);
+  padding: 0.5rem 0.9rem;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.task__title {
+  margin-bottom: 0.5rem;
+}
